@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Brauns Brian, an educator and aspiring software engineer from Nairobi, Kenya.">
+    <meta name="keywords" content="Brauns Brian, portfolio, web development, education, Nairobi">
+    <meta name="author" content="Brauns Brian">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="navbar-brand">
+                <a href="index.html" class="logo" aria-label="Brauns Brian Home">
+                    <img src="me.me/My Logo.png" alt="Brauns Brian Logo" width="40" height="40" loading="lazy">
+                </a>
+                <span class="name">Brauns Brian</span>
+            </div>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+                <span class="hamburger"><i class="fas fa-bars"></i></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="home-section" aria-labelledby="home-heading">
+            <div class="home-container">
+                <div class="headshot">
+                    <img src="me.me/headshot photo.png" alt="Portrait of Brian Kiplangat" class="headshot-img" loading="lazy">
+                </div>
+                <div class="text">
+                    <h1 id="home-heading">Hello, I'm Brian Kiplangat</h1>
+                    <p class="home-intro">An educator and aspiring architect of code, crafting innovative solutions from the vibrant heart of Nairobi, Kenya.</p>
+                    <div class="buttons">
+                        <a href="about.html" class="btn"><i class="fas fa-user"></i> About Me</a>
+                        <a href="contact.html" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Brauns Brian. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
